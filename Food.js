@@ -3,12 +3,12 @@ var currentTime;
 class Food {
     constructor(){
       this.foodStock=0;
-      this.image=loadImage('images/Food Stock.png');
-      this.bedroom = loadImage('images/Bed Room.png');
-      this.washroom = loadImage("images/Wash Room.png");
-      this.garden = loadImage("images/Garden.png");
-      this.vaccine = loadImage("images/dogVaccination.png");
-      this.sleeping = loadImage("images/Lazy.png");
+      this.image=loadImage('Food Stock.png');
+      this.bedroom = loadImage('Bed Room.png');
+      this.washroom = loadImage("Wash Room.png");
+      this.garden = loadImage("Garden.png");
+      this.vaccine = loadImage("dogVaccination.png");
+      this.sleeping = loadImage("Lazy.png");
       var currentTime;
     }
   
